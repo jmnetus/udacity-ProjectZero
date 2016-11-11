@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="us.jmnet.uda.projectzero.PortfolioActivity">
+
+    <TextView
+            android:text="@string/portfolio_screen_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Title"
+            android:layout_centerHorizontal="true" android:id="@+id/textView" android:layout_marginBottom="20dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="@string/project1_name"
+            android:id="@+id/project1Button"
+            android:layout_below="@+id/textView" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginTop="5dp" android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" android:layout_marginBottom="5dp" android:background="@color/colorPrimaryLight"
+            android:onClick="project1ButtonOnClick" />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="@string/project2_name"
+            android:id="@+id/project2Button"
+            android:layout_below="@+id/project1Button" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@color/colorPrimaryLight"
+            android:onClick="project2ButtonOnClick" />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="@string/project3_name"
+            android:id="@+id/project3Button"
+            android:layout_below="@+id/project2Button" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@color/colorPrimaryLight"
+            android:onClick="project3ButtonOnClick" />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="@string/project4_name"
+            android:id="@+id/project4Button"
+            android:layout_below="@+id/project3Button" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@color/colorPrimaryLight"
+            android:onClick="project4ButtonOnClick" />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="@string/project5_name"
+            android:id="@+id/project5Button"
+            android:layout_below="@+id/project4Button" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@color/colorPrimaryLight"
+            android:onClick="project5ButtonOnClick" />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:text="@string/project6_name"
+            android:id="@+id/project6Button"
+            android:layout_below="@+id/project5Button" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@color/colorAccent"
+            android:onClick="project6ButtonOnClick" />
+
+</RelativeLayout>

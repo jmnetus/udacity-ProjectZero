@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App Portfolio</string>
+    <string name="portfolio_screen_title">My Nanodegree Apps</string>
+    <string name="project1_name">Popular Movies</string>
+    <string name="project2_name">Stock Hawk</string>
+    <string name="project3_name">Build It Bigger</string>
+    <string name="project4_name">Make Your App Material</string>
+    <string name="project5_name">Go Ubiquitous</string>
+    <string name="project6_name">Capstone</string>
+
+    <string name="unimplemented_toast_text">I would launch the \"%s\" app, but it doesn\'t exist yet!</string>
+</resources>
